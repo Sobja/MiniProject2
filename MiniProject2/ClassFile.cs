@@ -37,7 +37,7 @@ namespace MiniProject2
                 Myproduct.Category = quitChoice;
                 Console.Write("Enter a product Name: ");
                 Myproduct.Name = Console.ReadLine();
-                while (Myproduct.Price == 0)
+                while (Myproduct.Price == 0) // Error handling - Price needs to be a numeric value
                 {
                     Console.Write("Enter a Price: ");
                     try
